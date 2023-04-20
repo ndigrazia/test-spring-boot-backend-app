@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: test-spring-boot-backend-app
+  annotations:
+    backstage.io/kubernetes-id: test-spring-boot-backend-app
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: ndigrazia/test-spring-boot-backend-app
+spec:
+  type: api
+  system: system:default/examples
+  lifecycle: production
+  owner: user:default/guest
